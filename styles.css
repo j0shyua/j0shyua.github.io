@@ -1,0 +1,34 @@
+body {
+    background: #ea6446; /* Old browsers */
+    background: -moz-linear-gradient(left, #ea6446 0%, #db4181 39%, #ba3793 74%, #b5369b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ea6446 0%,#db4181 39%,#ba3793 74%,#b5369b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ea6446 0%,#db4181 39%,#ba3793 74%,#b5369b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6446', endColorstr='#b5369b',GradientType=1 ); /* IE6-9 */
+    
+}
+
+.jumbotron {
+    margin-left:6%;
+    margin-right:6%;
+    padding:3%;
+    background: rgb(255, 255, 255); /*Fallback (IE8 and below)*/
+    background: rgba(255, 255, 255, .5) !important;
+    -webkit-border-radius: 4px; /* Old safari compatibility*/
+    -khtml-border-radius: 4px; /* Very old browser compatibility*/
+    -moz-border-radius: 4px; /* Mozilla Firefox compatibility*/
+    border-radius: 4px;
+}
+
+.navbar {
+    z-index:1;
+    position:fixed;
+    margin-top:0;
+    top:0;
+    width:100%;
+    background: rgb(255,255,255); /*Fallback (IE8 and below)*/
+    background: rgba(240, 240, 240, 0.85) !important;
+    -webkit-border-radius: 0;
+    -khtml-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
