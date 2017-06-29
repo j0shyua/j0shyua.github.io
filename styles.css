@@ -4,7 +4,6 @@ body {
     background: -webkit-linear-gradient(left, #ea6446 0%,#db4181 39%,#ba3793 74%,#b5369b 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, #ea6446 0%,#db4181 39%,#ba3793 74%,#b5369b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6446', endColorstr='#b5369b',GradientType=1 ); /* IE6-9 */
-    
 }
 
 .jumbotron {
