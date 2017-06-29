@@ -17,6 +17,7 @@ body {
     color:black;
     font-size:110%;
     font-weight:bold;
+    backdrop-filter: blur(5px); /*EXPERIMENTAL*/
 }
 
 .list-group {
@@ -28,6 +29,7 @@ body {
     -khtml-border-radius: 6px; /* Very old browser compatibility*/
     -moz-border-radius: 6px; /* Mozilla Firefox compatibility*/
     border-radius: 6px;
+    backdrop-filter: blur(5px); /*EXPERIMENTAL*/
 }
 
 #normal-jumbo {
@@ -41,6 +43,7 @@ body {
     -khtml-border-radius: 5px; /* Very old browser compatibility*/
     -moz-border-radius: 5px; /* Mozilla Firefox compatibility*/
     border-radius: 5px;
+    backdrop-filter: blur(5px); /*EXPERIMENTAL*/
 }
 
 #title-jumbo {
@@ -55,6 +58,7 @@ body {
     -khtml-border-radius: 5px; /* Very old browser compatibility*/
     -moz-border-radius: 5px; /* Mozilla Firefox compatibility*/
     border-radius: 5px;
+    backdrop-filter: blur(5px); /*EXPERIMENTAL*/
 }
 
 .navbar {
@@ -69,4 +73,5 @@ body {
     -khtml-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
+    backdrop-filter: blur(5px); /*EXPERIMENTAL*/
 }
