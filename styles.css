@@ -1,9 +1,9 @@
 body {
-    background: #ea6446; /* Old browsers */
-    background: -moz-linear-gradient(left, #ea6446 0%, #db4181 39%, #ba3793 74%, #b5369b 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #ea6446 0%,#db4181 39%,#ba3793 74%,#b5369b 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #ea6446 0%,#db4181 39%,#ba3793 74%,#b5369b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6446', endColorstr='#b5369b',GradientType=1 ); /* IE6-9 */
+    background: #eff230; /* Old browsers */
+    background: -moz-linear-gradient(left, #eff230 0%, #52dd23 26%, #29d8a9 52%, #2ebce8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #eff230 0%,#52dd23 26%,#29d8a9 52%,#2ebce8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #eff230 0%,#52dd23 26%,#29d8a9 52%,#2ebce8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff230', endColorstr='#2ebce8',GradientType=1 ); /* IE6-9 */
 }
 
 .jumbotron {
