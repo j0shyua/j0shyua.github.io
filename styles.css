@@ -11,7 +11,7 @@ body {
     margin-right:6%;
     padding:3%;
     background: rgb(255, 255, 255); /*Fallback (IE8 and below)*/
-    background: rgba(255, 255, 255, .5) !important;
+    background: rgba(255, 255, 255, .44) !important;
     -webkit-border-radius: 4px; /* Old safari compatibility*/
     -khtml-border-radius: 4px; /* Very old browser compatibility*/
     -moz-border-radius: 4px; /* Mozilla Firefox compatibility*/
@@ -25,7 +25,7 @@ body {
     top:0;
     width:100%;
     background: rgb(255,255,255); /*Fallback (IE8 and below)*/
-    background: rgba(240, 240, 240, 0.85) !important;
+    background: rgba(240, 240, 240, 0.88) !important;
     -webkit-border-radius: 0;
     -khtml-border-radius: 0;
     -moz-border-radius: 0;
