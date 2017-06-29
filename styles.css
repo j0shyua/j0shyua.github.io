@@ -13,10 +13,10 @@ body {
     padding:3%;
     background: rgb(255, 255, 255); /*Fallback (IE8 and below)*/
     background: rgba(255, 255, 255, .44) !important;
-    -webkit-border-radius: 4px; /* Old safari compatibility*/
-    -khtml-border-radius: 4px; /* Very old browser compatibility*/
-    -moz-border-radius: 4px; /* Mozilla Firefox compatibility*/
-    border-radius: 4px;
+    -webkit-border-radius: 5px; /* Old safari compatibility*/
+    -khtml-border-radius: 5px; /* Very old browser compatibility*/
+    -moz-border-radius: 5px; /* Mozilla Firefox compatibility*/
+    border-radius: 5px;
 }
 
 .navbar {
