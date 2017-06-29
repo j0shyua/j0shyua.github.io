@@ -1,18 +1,56 @@
 body {
-    background: #eff230; /* Old browsers */
-    background: -moz-linear-gradient(left, #eff230 0%, #52dd23 26%, #29d8a9 52%, #2ebce8 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #eff230 0%,#52dd23 26%,#29d8a9 52%,#2ebce8 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #eff230 0%,#52dd23 26%,#29d8a9 52%,#2ebce8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff230', endColorstr='#2ebce8',GradientType=1 ); /* IE6-9 */
+    background-image:url(bg3.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.jumbotron {
+.top-bar {
+    display: flex;
+}
+
+.list-group-item {
+    margin-top:0%;
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, .80);
+    color:black;
+    font-size:110%;
+    font-weight:bold;
+}
+
+.list-group {
+    width:25%;
+    margin-top:0%;
+    margin-left:6%;
+    margin-bottom:30px;
+    -webkit-border-radius: 6px; /* Old safari compatibility*/
+    -khtml-border-radius: 6px; /* Very old browser compatibility*/
+    -moz-border-radius: 6px; /* Mozilla Firefox compatibility*/
+    border-radius: 6px;
+}
+
+#normal-jumbo {
     color:black;
     margin-left:6%;
     margin-right:6%;
     padding:3%;
     background: rgb(255, 255, 255); /*Fallback (IE8 and below)*/
-    background: rgba(255, 255, 255, .44) !important;
+    background: rgba(255, 255, 255, .72) !important;
+    -webkit-border-radius: 5px; /* Old safari compatibility*/
+    -khtml-border-radius: 5px; /* Very old browser compatibility*/
+    -moz-border-radius: 5px; /* Mozilla Firefox compatibility*/
+    border-radius: 5px;
+}
+
+#title-jumbo {
+    flex: 1;
+    color:black;
+    margin-right:6%;
+    margin-left:2%;
+    padding:3%;
+    background: rgb(255, 255, 255); /*Fallback (IE8 and below)*/
+    background: rgba(255, 255, 255, .72) !important;
     -webkit-border-radius: 5px; /* Old safari compatibility*/
     -khtml-border-radius: 5px; /* Very old browser compatibility*/
     -moz-border-radius: 5px; /* Mozilla Firefox compatibility*/
@@ -26,7 +64,7 @@ body {
     top:0;
     width:100%;
     background: rgb(255,255,255); /*Fallback (IE8 and below)*/
-    background: rgba(240, 240, 240, 0.88) !important;
+    background: rgba(240, 240, 240, 0.85) !important;
     -webkit-border-radius: 0;
     -khtml-border-radius: 0;
     -moz-border-radius: 0;
